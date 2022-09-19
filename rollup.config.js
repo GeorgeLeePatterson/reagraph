@@ -20,10 +20,6 @@ export default [
         file: pkg.main,
         format: 'cjs',
         name: 'reagraph'
-      },
-      {
-        file: pkg.module,
-        format: 'esm'
       }
     ],
     plugins: [
